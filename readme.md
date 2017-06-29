@@ -6,27 +6,27 @@
 * **Classification_Evaluation** contains the Complete version of Basic IRIS data classification along with performance evaluation and algorithm comparision
 * **MNIST Simple** classifies random test images of hand written digits from [MNIST Dataset](http://yann.lecun.com/exdb/mnist/) into respective classes of 0-9
 
-#Regression
+# Regression
 * **Regression_realestate** uses Linear regression to predict Real estate prices based on a dataset included in **RealestateData.csv**
 * **Regression_tv** predicts which of the two Tv series flash or Arrow gets most veiwership based on the data from **veiwershipData.csv**
 
-#Importing Notebooks onto DSX
+# Importing Notebooks onto DSX
 * Navigate to [https://datascience.ibm.com/](https://datascience.ibm.com/) and Login with your IBM ID
 * Create your project and Give it a Description
 * Click on Add notebooks
 
-###From From URL
+### From From URL
 * Copy the URL of the python notebook File
 * Click on From ***URL Tab***
 * Give your project a name and paste the copied url in Notebook URL Field
 
-###From File
+### From File
 
 * Download the gitHub Repo
 * Click on ***From File*** Tab
 * Give your notebook a name and click browse button to import your ***.ipnyb file***
 
-#Accessing DataFiles
+# Accessing DataFiles
 * Click on ***add data assets*** from the project home screen
 * Import your ***.csv*** data file
 * From within the notebook, click the ***Find and add Data*** menu item on the top right
