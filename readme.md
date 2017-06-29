@@ -1,5 +1,5 @@
 
-#Classification
+# Classification
 
 * **Classification classification-12Liner** consists of a shortened version of [IRIS](https://en.wikipedia.org/wiki/Iris_flower_data_set) classifier with no evaluation
 * **Classification Simple** outputs a related image basing on the classification of the flower
