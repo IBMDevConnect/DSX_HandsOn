@@ -1,3 +1,16 @@
+### Note:
+Tested on Python 2.7 with spark 2.0
+
+* Run the below line of code to install 0.18 of scikitlearn
+
+
+```
+
+!pip install scikit-learn==0.18
+
+
+```
+
 
 # Classification
 
