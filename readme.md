@@ -5,9 +5,7 @@ Tested on Python 2.7 with spark 2.0
 
 
 ```
-
 !pip install scikit-learn==0.18
-
 
 ```
 
