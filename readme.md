@@ -1,15 +1,34 @@
-#Classification Deck
 
-* Testnotebook contains the Complete version of Basic IRIS data classification along with performance evaluation and algorithm comparision
+#Classification
 
+* **Classification classification-12Liner** consists of a shortened version of [IRIS](https://en.wikipedia.org/wiki/Iris_flower_data_set) classifier with no evaluation
+* **Classification Simple** outputs a related image basing on the classification of the flower
+* **Classification_Evaluation** contains the Complete version of Basic IRIS data classification along with performance evaluation and algorithm comparision
+* **MNIST Simple** classifies random test images of hand written digits from [MNIST Dataset](http://yann.lecun.com/exdb/mnist/) into respective classes of 0-9
 
-* Classification Simple consists of a shortened version of classifier with no evaluation
-	* IRIS data set consists of 50 samples from each of three species of Iris (Iris setosa, Iris virginica and Iris versicolor). Four features were measured from each sample: the length and the width of the sepals and petals, in centimetres. Based on the combination of these four features, Fisher developed a linear discriminant model to distinguish the species from each other.
+#Regression
+* **Regression_realestate** uses Linear regression to predict Real estate prices based on a dataset included in **RealestateData.csv**
+* **Regression_tv** predicts which of the two Tv series flash or Arrow gets most veiwership based on the data from **veiwershipData.csv**
 
-* MNIST Simple collects the required data itself when run for the first time and this project can be used to identify various handwritten digits and classify them into numerals between 0-9.
-	* MNIST uses about 47000 images to train a Deep Belief network powered by Tensorflow running on DSX.On a regular computer, The training takes about 20 min to complete but DSX does it under less than a minute.
-	* More Details on MNIST can be found [here](http://yann.lecun.com/exdb/mnist/)
+#Importing Notebooks onto DSX
+* Navigate to [https://datascience.ibm.com/](https://datascience.ibm.com/) and Login with your IBM ID
+* Create your project and Give it a Description
+* Click on Add notebooks
 
+###From From URL
+* Copy the URL of the python notebook File
+* Click on From ***URL Tab***
+* Give your project a name and paste the copied url in Notebook URL Field
 
+###From File
 
-		
+* Download the gitHub Repo
+* Click on ***From File*** Tab
+* Give your notebook a name and click browse button to import your ***.ipnyb file***
+
+#Accessing DataFiles
+* Click on ***add data assets*** from the project home screen
+* Import your ***.csv*** data file
+* From within the notebook, click the ***Find and add Data*** menu item on the top right
+* Find your dataset and select ***Insert Pandas Dataframe***
+* use the assigned Data variable which can be seen in the ***second-bottom most line*** of the inserted code
